@@ -1,0 +1,60 @@
+Java Variables and Data types Ques :-
+1. Statically typed programming languages requires to declare data types of the variables at the time of variable declaration.
+Memory is assigned at the time of compilation in statically typed languages.
+Dynamically typed programming languages doesn't requires to declare data types of the variables at the time of variable declaration, it automatically detects the type of literal being assigned to the variable.
+Memory is assigned at the time of execution in dynamically typed languages.
+
+2. Variable is a memory container with names to store literals. Java is a Statically typed programming language therefore, we also have to declare the type of variable at the time of it's declaration.
+
+3. It's simple.
+int data = 18;
+int a;
+a = 10;
+This is the syntax that depicts the way, how a value is assigned to a variable.
+
+4. Primitive data types is predefined by the language and is named by a reserved keyword of Java.
+Ex. int, short, byte, long, float, double etc.
+
+5. Identifiers are the names of variables, class, functions etc.
+
+6. Relational Operators, Arithmetic Operators, Logical Operators etc.
+
+7. a++; | a--;
+These are the Incremen t and decrement operators..
+
+
+Fundamentals of Java :-
+1. A programming language is a language which the computer understands.
+
+2. We need a programming language so as to instruct the computer.
+
+3. Java is free
+Java follows the principle of OOPs
+Java is everywhere
+Java has a huge community
+Java is flexible and keeps updating with time
+
+4. An object is a real world entity, which is streched into the world of programming by the means of OOps.
+
+5. A class is a blueprint for creating an object. It contains all the default and basic info whcih is common in the same type of objects.
+
+6. Main method is the starting point where the Executions starts. Without main method, our program will not be executed by the JVM.
+Main method has a return type of Void and is written as static so that, it doesn't requires an object for it's execution.
+
+
+Computer Basics :-
+1. A computer is an electronic device, which works on our inputs, processes it and yields a desired ouput.
+
+2. RAM is the primary memory of our computer. It stands for Random Access Memory. It's a volatile memory, which is very fast.
+
+3. HDD/SSD
+
+4. Keyboard
+
+5. Output Devices are the parts of computer which yeilds some outputs, ex. - monitor, speaker etc.
+
+6. Mouse
+
+7. Machine Level Language
+
+8. Input devices are the parts of computer which takes inputs from the user and sends it to the computer.

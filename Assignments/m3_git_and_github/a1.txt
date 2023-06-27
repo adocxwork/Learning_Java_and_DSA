@@ -1,0 +1,23 @@
+1. Git is a distributed version control system widely used in software development. It was created by Linus Torvalds in 2005 to manage the development of the Linux kernel but has since become the industry standard for version control.
+
+2. It is a software tool that enables tracking and managing changes to files, typically used in software development but also applicable to other types of projects. It allows multiple contributors to work collaboratively on a project by keeping track of modifications, facilitating coordination, and providing mechanisms to revert to previous versions if needed.
+
+3. GitHub is a web-based platform for hosting, managing, and collaborating on software development projects using the Git version control system. It provides a centralized location where developers can store their code repositories and work together with other team members or contributors.
+
+4. Github, GitLab, BigBucket etc.
+
+5.
+Centralized Version Control System (CVCS): CVCSs utilize a central server that acts as a single point of truth for the repository. Developers check out files from the server, work on their local copies, and then commit changes back to the central repository. CVCSs offer collaboration features and can handle concurrent access, but they heavily rely on the central server. Examples of CVCS include Subversion (SVN) and Perforce.
+
+Distributed Version Control System (DVCS): DVCSs take a decentralized approach where every developer has a complete copy of the repository, including its entire history. This allows developers to work independently and makes DVCSs more resilient to server failures. Developers can synchronize changes between repositories, merging and sharing updates as needed. Git, Mercurial, and Bazaar are examples of DVCSs.
+
+6.
+It gives Distributed Development
+It is Efficient and Fast
+Keeps Complete Version History
+Allows us for Collaboration and Code Review
+It gives Ecosystem and Community
+
+7. A Git repository, often referred to as a "repo," is a collection of files and their complete history, managed by Git. It serves as the central storage for a project's codebase and its entire revision history. A Git repository contains all the information necessary to track changes, including commits, branches, tags, and configuration.
+
+8. By using the init command.

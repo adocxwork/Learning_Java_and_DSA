@@ -1,0 +1,21 @@
+MILESTONE :-
+Computer Basics
+Java Fundamentals
+Core Java
+Advance Java
+Git & GitHub
+DSA
+More on DSA
+System Design
+Database
+Database Connectivity
+Collection Framework
+Projects
+
+
+EVERY WEEK :-
+Recorded Lecture
+Doubt Seasons
+Assignments
+Live Class
+Tests

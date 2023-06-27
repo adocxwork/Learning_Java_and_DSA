@@ -1,0 +1,60 @@
+1. Condtional Operators are also known as ternary operator. Its one of the operator in java which allows us to return a specific value depending upon a condition.
+If the condition results true, 1st value is returned else, 2nd value is returned.
+There are other conditional operators too like, Logical and (&&) , Logical or (||) these operators works with boolean values.
+
+int a=1,b=2;
+String res = (a<b)? "True":"False" ; //This will return "True"(1st value) as the condition is true.
+
+2. There are 2 types of operators based on number of operands.
+i. Unary operators --> works upon single operand
+ii. Binary operators --> works upon double operand
+
+3. There comes a situation where we need to define such programs that works as per the user's choice.
+There comes the use of Switch case in Java. It executes a set of instructions based on the given case.
+
+4. It follows the BODMAS rule as, Division, multiplication, addition, substraction...
+
+5. Conditional statements are if-else, if-else if statements.
+It is used to execute a set of instruction based on a given condition.
+If the condition results true, if part is executed, if it results in false, else part is executed.
+
+if(true)
+{
+System.out.println("if part");
+}
+else if(true)
+{
+System.out.println("else if part");
+}
+else
+{
+System.out.println("else part");
+}
+
+6. 
+if(true)
+{
+System.out.println("if part");
+}
+else
+{
+System.out.println("else part");
+}
+
+7.
+for loop
+while loop
+do while loop
+
+8. In for loop, we know the number of times loop will execute and, it only runs if the condition is true.
+In do while loop, we don't know the number of times, loop will be executing and, even though the condition is false, the loop will execute at least once.., as the condition is checked at the end of loop.
+
+9.
+class Numbers{
+public static void main(String []args){
+for(int n=1; n<11; n++)
+{
+System.out.println(n);
+}
+}
+}
