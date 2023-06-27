@@ -1,0 +1,31 @@
+1.
+On Windows, you can press Win + R, type "cmd," and press Enter.
+Once the command prompt or terminal is open, type the following command and press Enter:
+git --version
+If Git is installed on your system, the command will display the version number of Git.
+If Git is not installed or not recognized, you will likely see an error message indicating that the command is not recognized or that Git is not installed.
+
+2. Using the "git init" command.
+
+3. This is how, we can set our username and email address for the first time setup :-
+git config --global user.name "adocxwork"
+git config --global user.email "adipracc@gmail.com"
+
+4. Using the command :-
+git add <file name>
+
+5. Using the command :-
+git rm --cached <file name>
+
+6. Using the command :-
+git commit -m "<message>"
+But we have to ensure that the files are ready in the staging area.
+
+7. First of all, we need to make all the changes which we want, after that,
+We need to give the following commands :-
+git add .
+git commit -m "Changes made.."
+git push <remote-name> <branch-name>
+
+8. git clone: This command is used to create a local copy of a remote repository. When you clone a repository, you download the entire repository with its history, branches, and files. It creates a new directory on your local machine that is an exact replica of the remote repository.
+git pull: This command is used to update your local repository with the latest changes from a remote repository. When you pull changes, Git fetches the latest commits from the remote repository and integrates them into your current branch.

@@ -1,0 +1,135 @@
+#clear ur screen
+clear
+ctrl + k
+
+#for version check..
+git --version
+git version
+
+#for help
+git help
+git help init
+
+#check your config details
+git config --list
+
+#check your detail's path
+git config --list --show-origin
+
+#Add username & email ID | set config
+git config --global user.name "adocxwork"
+git config --global user.email "adipracc@gmail.com"
+
+#check username and email
+git config --global user.name
+git config --global user.email
+-------------------------------------------------------
+#check current path
+pwd
+
+#make new folder
+mkdir <folder name>
+
+#change path/directory
+cd D:
+
+#initialize git ecosystem
+git init
+
+#get the list of items in current folder
+ls
+#to see the hidden file
+ls -a
+
+#keep files secrete from git, github
+touch .gitignore | create a file ".gitignore"
+write the secrete files name into this file
+
+#get status
+git status
+
+#add to staging area
+git add Adi.java
+git add Adi2.java
+#add all files at onces
+git add .
+
+#to unstage
+git rm --cached Adi.java
+
+#to restore the file (if file is changed after staging)
+git restore Adi.java
+
+#to commit the files into local repo
+git commit -m "first commit"
+
+#to check how many files are commited
+git log
+
+#to undo the changes,
+git checkout 5bd65df3c3d26ac052b16eec5f7d1efa9dc3bc93
+<hashcode is given according to the commits done..>
+<get hashcode using git log>
+
+#for going into the last place | changing the branches
+git checkout master
+
+#you must have a github repository so that, u can push ur files onto that repository
+
+#change branch (master to main)
+git branch -M main
+
+#add git repository URL
+git remote add origin <git URL>
+
+#push into the origin's main
+git push -u origin main
+
+#clone whole project into ur system
+git clone https://github.com/adocxwork/JavaTrial.git
+
+#pull recent chances
+git pull
+
+#check branch
+git branch
+
+#create branch
+git branch dev
+
+#change branch
+git checkout dev
+
+#create branch + checkout into that branch
+git checkout -b adi/mul
+
+#merge branch
+git add .
+git commit -m "msg"
+(checkout into the upper branch into which, u wanna merge)
+git checkout main (swiching branch)
+git merge dev (merging)
+git add .
+git commit -m "msg"
+git push origin main
+-------------------------------------------------------
+#check remote repo
+git remote -v
+
+#push your repo (if u have already added ur origin)
+git push
+
+#push into main branch (pushing other branch)
+git checkout dev <swiching to that branch which needs to be pushed..>
+git push -u origin main
+
+#change branch
+git branch -M main
+#add origin
+git remote add origin https://github.com/adocxwork/JavaTrial.git
+
+#for editing a file in git bash
+vim <file name>
+
+#for checking the file
+cat <file name>
