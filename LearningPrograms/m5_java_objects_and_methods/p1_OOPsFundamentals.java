@@ -17,11 +17,9 @@ class p1_OOPsFundamentals //its not compulsory to have the same name for file an
         // JRE >> Java Runtime Environment
         // JVM >> Java Virtual Machine
 
-
-
         // Memory >> Content
         // Method Area >> Byte code(.class file)
-        // Stack Area >> obj
+        // Stack Area >> obj, variables, methods
         // Heap Area >> new p1_OOPsFundamentals() >> int a; String name;
 
         // In Heap Area, object will be there and object will have it's address too..

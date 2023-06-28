@@ -4,7 +4,7 @@ class p2_TypesOfVariables {
     public static void main(String[] args) {
         // Primitive variable's datatype >> byte, short, int, long, float, double, boolean, char
         // Non Primitive variable's datatype >> String, Array etc.
-        // Reference variable >> (Variable refering to object)
+        // Reference variable >> (Variable refering to an object)
 
         // System.out.println(var); >> error >> static memory & instance's memory(heap) are different
         // System.out.println(obj1.var); >> right
@@ -32,7 +32,7 @@ class p2_TypesOfVariables {
         // Scope based varibles :-
         // 1. Instance variable >> belongs to instance only and last as long as the object stays for..
         // 2. Static variable
-        // 3. Local variable >> local to a particular method
+        // 3. Local variable >> local to a particular method and last as long as the method
 
         // Instance = Object
     }    
