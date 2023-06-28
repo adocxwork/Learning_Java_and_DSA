@@ -1,0 +1,24 @@
+1. Using the syntax :-
+<class name> <reference variable name> = new <class name>();
+Test obj = new Test();
+
+2. "new" keyword is used to create an object in java.
+
+3. Primitive variables, Non primitive variables, reference variables...
+BUT, on the basis of scope,
+i. Instance variable
+ii. Local variable
+iii. static variable
+
+4. Instance variable : it lies inside the object and, it last as long as the object. It is stored in heap memory and belongs to the object. It is inside the class and outside the method.
+Local variable : It is local to a particular method, and lies inside the method and lasts in stack as long as the method. It doesn't have the default value like the instance variable has.
+
+5. Instance variable : Heap memory area
+Local variable : Stack memory area
+
+6. In Method overloading, we create multiple methods with same name but,
+with different no of parameters OR different data types.
+So that, while calling the function, if no. of parameters OR data type differs..,
+then we can execute anyone method as per our need.
+In method overloading, only that method is called, whose no. of parameters and,
+data types matches with the given arguments.
