@@ -10,8 +10,8 @@ class p2_TypesOfVariables {
         // System.out.println(obj1.var); >> right
 
         int num = 7; // primitive variable
-        p2_TypesOfVariables obj1 = new p2_TypesOfVariables(); // obj >> reference variable
-        p2_TypesOfVariables obj2 = new p2_TypesOfVariables(); // obj >> reference variable
+        p2_TypesOfVariables obj1 = new p2_TypesOfVariables(); // obj1 >> reference variable
+        p2_TypesOfVariables obj2 = new p2_TypesOfVariables(); // obj2 >> reference variable
 
         obj1.name = "Aditya Gupta";
 
