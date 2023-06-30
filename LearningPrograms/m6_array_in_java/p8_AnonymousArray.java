@@ -1,4 +1,4 @@
-class Calculation
+class Calculations
 {
     public int add(int n[])
     {
@@ -10,12 +10,16 @@ class Calculation
         return res;
     }
 }
-public class p8_AnonymousArray {
-    public static void main(String[] args) {
 
-        Calculation obj = new Calculation();
-        // int n2[] = {5,6,7,8};
-        int result = obj.add(new int[]{5,6,7,8}); //anonymous array >> only one time use
+public class p8_AnonymousArray
+{
+    public static void main(String[] args)
+    {
+        
+        Calculations obj = new Calculations();
+        // int n2[] = {8,8,9}; //Array for addition >> needs documentations...
+
+        int result = obj.add(new int[]{8,8,9}); //anonymous array >> only one time use >> no documentations for variables
         System.out.println(result);
 
     }
