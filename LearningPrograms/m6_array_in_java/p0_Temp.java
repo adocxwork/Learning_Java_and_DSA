@@ -10,11 +10,7 @@ class p0_Temp
         n2[2] = 9;
 
         int n3[] = new int[3]; //we can not pass negative number for size
-        for(int i : n3)
-        {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+        n3 = new int[4]; //assigning new array
 
 
         // default value in array for string is null
