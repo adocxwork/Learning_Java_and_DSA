@@ -4,7 +4,7 @@ public class p4_EnhancedArray {
         // For 1D Array
         int a[] = {5,6,7,8,9};
 
-        for(int n : a) //Enhanced Array
+        for(int n : a) //Enhanced For Loop
         {
             System.out.print(n + " ");
         }
@@ -18,7 +18,7 @@ public class p4_EnhancedArray {
             {0,9}
         };
 
-        for(int n2[] : b) //Enhanced Array
+        for(int n2[] : b) //Enhanced For Loop
         {
             for(int n3 : n2)
             {
