@@ -6,7 +6,5 @@ class p8_StringConcatenation {
         String s3 = "adi" + 100 + 99;
         String s4 = s1 + s2;
         System.out.println();
-        System.out.println();
-        System.out.println();
     }
 }
