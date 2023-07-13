@@ -11,7 +11,7 @@ public class p1_ArraysBasic {
         // System.out.println(nums[2]); >> for printing the 2nd index element of nums array
 
         int nums2[] = new int[3]; //for array whose value is not known at the moment
-        // size = 3, type = int,
+        // size = 3, type = int, default values for elements = 0
         // 'new' keyword is used to create memory for array in heap
         // Array memory is created in heap and, array's address is stored in stack memory(refering to variable name)
 
